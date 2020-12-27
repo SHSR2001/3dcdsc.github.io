@@ -2,7 +2,7 @@
 
 ![](imgs/banner.jpg)
 
-**Digital Design & Development Club (3DC)** is an official [*Fifth-Row*](https://www.sutd.edu.sg/Campus-Life/Student-Life/Student-Organisations-Fifth-Row) club affilliated with [*ISTD Pillar*](https://istd.sutd.edu.sg/) at [*SUTD*](https://www.sutd.edu.sg/). We are also a [*Developer Student Club (DSC)*](https://dsc.community.dev/) supported by Google and a member of the *[OpenNodes](https://opennodes.com/) Campus Collective*.
+**Digital Design & Development Club (3DC)** is an official [*Fifth-Row*](https://www.sutd.edu.sg/Campus-Life/Student-Life/Student-Organisations-Fifth-Row) club affiliated with [*ISTD Pillar*](https://istd.sutd.edu.sg/) at [*SUTD*](https://www.sutd.edu.sg/). We are also a [*Developer Student Club (DSC)*](https://dsc.community.dev/) supported by Google and a member of the *[OpenNodes](https://opennodes.com/) Campus Collective*.
 
 Stay connected:
 
@@ -22,9 +22,9 @@ In short, DSC is a worldwide community supported by Google. Our 3DC DSC at SUTD 
 
 ## Collaboration with OpenNodes
 
-OpenNodes is an initiative started by Tribe and IMDA Singapore, and is supported by more than 30 leading global corporates and government agencies with 3DC running SUTD’s branch of Opennodes. The aim is to foster greater collaboration between various stakeholders within the tech ecosystem.
+OpenNodes is an initiative started by Tribe and IMDA Singapore, and is supported by more than 30 leading global corporations and government agencies with 3DC running SUTD’s branch of OpenNodes. The aim is to foster greater collaboration between various stakeholders within the tech ecosystem.
 
-OpenNodes Campus Collective is an extension of these efforts, and will be the first time students from various universities across Singapore will be brought together for career opportunities and education resources. Opennodes connects students with projects from companies like IBM and WeBank to give students industry exposure. It will also be pushing out educational workshops for students to learn technical and consulting skills.
+OpenNodes Campus Collective is an extension of these efforts, and will be the first time students from various universities across Singapore will be brought together for career opportunities and education resources. OpenNodes connects students with projects from companies like IBM and WeBank to give students industry exposure. It will also be pushing out educational workshops for students to learn technical and consulting skills.
 
 For more information on ongoing projects and news, please visit this [website](https://campus.opennodes.com/)
 

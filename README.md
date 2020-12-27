@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+# 3DC
 
-You can use the [editor on GitHub](https://github.com/3DCdsc/3dcdsc.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<!-- ![ci](https://github.com/3DCdsc/About/workflows/ci/badge.svg?branch=master) -->
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Add / Edit Pages
 
-### Markdown
+All pages are written in MarkDown (`.md`) located under the directory `docs/` on Master branch.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### This repo is using MkDocs with a material theme
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+pip install mkdocs-material
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### About MkDocs
 
-### Jekyll Themes
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/3DCdsc/3dcdsc.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### MkDocs Commands on local
 
-### Support or Contact
+* `mkdocs new [dir-name]` - Create a new project. (You don't need to use this for existing project)
+* `mkdocs serve` - Start the live-reloading docs server. (You can use this to preview your changes at local)
+* `mkdocs build` - Build the documentation site. (You don't need to do this, this repo's CI will build on push and update the GitHub Page)
+* `mkdocs -h` - Print help message and exit.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Project layout
+```
+    mkdocs.yml    # The configuration file.
+    docs/
+        index.md  # The documentation homepage.
+        ...       # Other markdown pages, images and other files.
+```

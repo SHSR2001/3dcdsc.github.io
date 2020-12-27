@@ -1,4 +1,4 @@
-# Digital Design & Development Club 
+# 3DC Official Website
 
 ![](https://github.com/3DCdsc/3dcdsc.github.io/workflows/Deploy/badge.svg?branch=master)
 

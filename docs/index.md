@@ -1,4 +1,4 @@
-# About 3DC
+# About Us
 
 ![](imgs/banner.jpg)
 
@@ -30,4 +30,4 @@ For more information on ongoing projects and news, please visit this [website](h
 
 ## Collaboration with ISTD
 
-We are the only *Fifth-Row* under ISTD pillar, we organise events in collaboration with ISTD at i3 Lab (Building 1, Level 6).
+We work closely with [ISTD pillar](https://istd.sutd.edu.sg/) and organise events in collaboration with ISTD at [Intelligence, Innovation and Interconnection (i3) Lab](https://istd.sutd.edu.sg/education/lab/i3-lab/) (1.605).

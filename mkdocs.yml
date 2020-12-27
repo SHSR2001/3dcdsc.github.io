@@ -2,8 +2,8 @@ site_name: Digital Design and Development Club (3DC)
 site_url: https://3dcdsc.github.io/
 docs_dir: docs/
 
-# repo_name: '3DCdsc/About'
-# repo_url: 'https://github.com/3DCdsc/About'
+# repo_name: '3DCdsc/3dcdsc.github.io'
+# repo_url: 'https://github.com/3DCdsc/3dcdsc.github.io'
 
 # Copyright
 copyright: Digital Design and Development Club (3DC) &copy; 2019 - 2021. All rights reserved.
@@ -73,7 +73,8 @@ nav:
       - Q3 Solution: "Recess_Week_Challenge_Stuff/q3_sol.md"
       - Q4 Solution: "Recess_Week_Challenge_Stuff/q4_sol.md"
       - Q5 Hints: "Recess_Week_Challenge_Stuff/q5_hints.md"
-  - Join Us:
-      - Our Team: "Meet_The_Team.md"
-      - 3DC Membership: "3DC_Membership.md"
-      - Join 3DC Core Team: "Join_3DC_Core.md"
+  - Meet The Team:
+      - Core Team: "core_team.md"
+      - Join Us:
+        - Join 3DC Membership: "3dc_membership.md"
+        - Join 3DC Core Team: "join_3dc_core.md"

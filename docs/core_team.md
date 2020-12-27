@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" media="all" href="../styles/main.css" />
 
-Meet the 3DC Exco team!
+# Core Team Members
 
 <img src="../imgs/team/kaixun.jpg" alt="kaixun" class="profile-photo"/>
 <b>Kai Xun</b>

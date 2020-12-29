@@ -30,6 +30,7 @@ markdown_extensions:
       permalink: "#"
   - pymdownx.arithmatex:
       generic: true
+  - attr_list
 
 # Extra Style
 extra_javascript:
@@ -73,6 +74,8 @@ nav:
       - Q3 Solution: "Recess_Week_Challenge_Stuff/q3_sol.md"
       - Q4 Solution: "Recess_Week_Challenge_Stuff/q4_sol.md"
       - Q5 Hints: "Recess_Week_Challenge_Stuff/q5_hints.md"
+  - Google Tech Challenge:
+    - Introduction: "gtc.md"
   - Meet The Team:
       - Core Team: "core_team.md"
       - Join Us:

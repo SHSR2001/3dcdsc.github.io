@@ -1,6 +1,6 @@
 # Q3: Solution and Afterthoughts
 
-![](../imgs/iritgating.jpg)
+![](../imgs/recess_week_challenge/iritgating.jpg)
 
 Question 3 was a more balanced question compared to Question 1 and Question 2, one being really difficult, and the other being really easy. The participant's objective is to take the straightforward approach to Question 3 and try to make it more efficient. Mainly, this was a [greedy algorithm](https://brilliant.org/wiki/greedy-algorithm/) question.
 

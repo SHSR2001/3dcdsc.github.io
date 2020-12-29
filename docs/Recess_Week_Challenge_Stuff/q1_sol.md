@@ -1,6 +1,6 @@
 #  Q1: Solution and Afterthoughts
 
-![](../imgs/wheat_farm.png)
+![](../imgs/recess_week_challenge/wheat_farm.png)
 
 Steve's Wheat Farm is arguably the most difficult problem in the entire recess week challenge, so much that Q2 was made easier to allow participants more time to solve Q1.
 

@@ -4,12 +4,12 @@
 
 If you have tried out the teaser challenge released on Friday, you would have helped our main character, Steve to set up his sheep farm! 
 
-![](../imgs/sheep_farm.png)
+![](../imgs/recess_week_challenge/sheep_farm.png)
 
 
 Thanks to all your help, Steve is now happily shearing wool from his sheep! Now, Steve wants to sell wool to other Minecrafters. He needs your help to set up a system that helps customers calculate the price of the wool they wish to buy!
 
-![](../imgs/saas.png)
+![](../imgs/recess_week_challenge/saas.png)
 
 ## Introduction
 
@@ -35,7 +35,7 @@ Please refer to the [Python Website](https://www.python.org/) for instructions t
 
 Open a Terminal/Command Prompt on your computer. (Here's an example for Windows)
 
-![](../imgs/cmd.png)
+![](../imgs/recess_week_challenge/cmd.png)
 
 Now, install Flask by typing the following into your command line. (Note: It might be `pip` or `pip3` on your computer depending on how you installed python)
 
@@ -118,7 +118,7 @@ If you are interested to know, the `method` attribute specifies the kind of HTTP
 
 Make sure to save your file! You can open this HTML file in your web browser to see what it looks like!
 
-![](../imgs/sheep_shop_html.png)
+![](../imgs/recess_week_challenge/sheep_shop_html.png)
 
 ### Setting up the Local Flask Server
 
@@ -202,11 +202,11 @@ We can test out our webpage and price calculation. For example, fill in the numb
 
 On Firefox:
 
-![Firefox](../imgs/sheep_price_firefox.png)
+![Firefox](../imgs/recess_week_challenge/sheep_price_firefox.png)
 
 On Chrome/Edge:
 
-![Chrome](../imgs/sheep_price_chrome.png)
+![Chrome](../imgs/recess_week_challenge/sheep_price_chrome.png)
 
 Congratulations, you have created your first working Flask application with a webpage and HTTP endpoint! Let us see how we can deploy this application to the cloud so the anyone on the internet case access it! (and so we can award you marks for your lab)
 
@@ -246,11 +246,11 @@ https://aws.amazon.com/. If you have an account, just log in.
 
 In the AWS Management Console, click on `Services` in the top left corner, and click on `Elastic Beanstalk`.
 
-![Elastic Beanstalk](../imgs/elastic_beanstalk_nav.png)
+![Elastic Beanstalk](../imgs/recess_week_challenge/elastic_beanstalk_nav.png)
 
 Then, click on `Create Application`
 
-![](../imgs/elastic_beanstalk_create.png)
+![](../imgs/recess_week_challenge/elastic_beanstalk_create.png)
 
 ### 3. Fill in Application Details
 
@@ -269,13 +269,13 @@ Fill in the following:
 
 You should now see something like this.
 
-![](../imgs/elastic_beanstalk_deploying.png)
+![](../imgs/recess_week_challenge/elastic_beanstalk_deploying.png)
 
 AWS Elastic Beanstalk is now deploying your application, give it a while for it to be ready. Meanwhile, go make yourself some coffee or something!
 
 After some time, the deployment should be complete, and you should see the following:
 
-![](../imgs/sheep_shop_deploy_done.jpg)
+![](../imgs/recess_week_challenge/sheep_shop_deploy_done.jpg)
 
 To verify the webpage is indeed working, navigate to the link (as circled in the image). You should see your working webpage. Try calculating the price of wools, and it should be working!
 

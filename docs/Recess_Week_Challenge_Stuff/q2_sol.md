@@ -1,6 +1,6 @@
 # Q2: Solution and Afterthoughts
 
-![](../imgs/maze.png)
+![](../imgs/recess_week_challenge/maze.png)
 
 Question 2 is not difficult at all, and everyone who submitted code managed to solve it. The main objective of Question 2 was to give everyone a breather and more time to solve Question 1.
 

@@ -1,6 +1,6 @@
 # Q4: Solution and Afterthoughts
 
-![](../imgs/enderdragon.jpg)
+![](../imgs/recess_week_challenge/enderdragon.jpg)
 
 Question 4 seems difficult at first, with so many variables to take into account. However, if you break down the problem and think through the problem logically, this problem is actually very simple to solve. There are in fact many ways to solve this problem, I will talk about the more straightforward approach.
 

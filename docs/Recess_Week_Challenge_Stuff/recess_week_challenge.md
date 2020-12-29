@@ -1,7 +1,7 @@
 # Recess Week Challenge 2020: A Minecraft Story
 > Last updated: 19/10/2020
 
-![Insert Banner Image Here](imgs/recess.png)
+![Insert Banner Image Here](../imgs/recess_week_challenge/recess.png)
 
 **3DC Recess Week Challenge** is a great way to kill off spare time, or to learn a new skill during this recess week! Follow through our Minecraft-themed story to learn to do some basic coding, solve algorithm questions, try out your hand at deploying a cloud-based web application, compete in a time-based coding challenge and win prizes!
 
@@ -35,7 +35,7 @@ All links to the 3DC challenges will be posted here.
 | Challenge | Difficulty | Release Date | Points |
 | :---: | :---: | :---: | :---: |
 | [Teaser Challenge: Steve and Sheep](https://www.hackerrank.com/3dc-recess-week-minecraft-teaser) | Medium | 23/10/20 (Friday) | N/A |
-| [Cloud-based Lab: Sheep-as-a-Service](./Recess_Week_Challenge_Stuff/cloud_based_lab.md) | Medium | 24/10/20 (Saturday) 20:00 | 200 |
+| [Cloud-based Lab: Sheep-as-a-Service](../Recess_Week_Challenge_Stuff/cloud_based_lab.md) | Medium | 24/10/20 (Saturday) 20:00 | 200 |
 | [Hackerrank Challenge 1: Steve's Wheat Farm](https://www.hackerrank.com/3dcrecessweek) | Challenging | 26/10/20 (Monday) 09:00 | 100 |
 | [Hackerrank Challenge 2: Steve vs Prof Oka!](https://www.hackerrank.com/3dcrecessweek)| Easy | 27/10/20 (Tuesday) 09:00 | 100 |
 | [Hackerrank Challenge 3: Irritgating Steve](https://www.hackerrank.com/3dcrecessweek) | Medium | 28/10/20 (Wednesday) 09:00 | 100 |

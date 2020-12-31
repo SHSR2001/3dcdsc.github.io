@@ -84,9 +84,9 @@ nav:
           - Q5 Hints: "Recess_Week_Challenge_Stuff/q5_hints.md"
   - Google Tech Challenge 2021:
     - Introduction: "gtc.md"
-    # - Android:
-    #   - Introduction: "gtc/android/android.md"
-    #   - Day 0 - Environment Setup: "gtc/android/day0a.md"
+    - Android:
+      - Introduction: "gtc/android/android.md"
+      - Day 0 - Environment Setup: "gtc/android/day0a.md"
   - Meet The Team:
       - Core Team: "core_team.md"
       - Join Us:

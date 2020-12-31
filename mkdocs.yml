@@ -68,8 +68,6 @@ nav:
       - Past Workshops: "Workshops/past_workshops.md"
       - Workshop Organiser Guide: "Workshops/workshop_guide.md"
   - Events:
-    - Google Tech Challenge 2021:
-        - Introduction: "gtc.md"
     - Past Events:
       - Recess Week Challenge 2020:
           - Challenge Introduction: "Recess_Week_Challenge_Stuff/recess_week_challenge.md"
@@ -84,6 +82,11 @@ nav:
           - Q3 Solution: "Recess_Week_Challenge_Stuff/q3_sol.md"
           - Q4 Solution: "Recess_Week_Challenge_Stuff/q4_sol.md"
           - Q5 Hints: "Recess_Week_Challenge_Stuff/q5_hints.md"
+  - Google Tech Challenge 2021:
+    - Introduction: "gtc.md"
+    # - Android:
+    #   - Introduction: "gtc/android/android.md"
+    #   - Day 0 - Environment Setup: "gtc/android/day0a.md"
   - Meet The Team:
       - Core Team: "core_team.md"
       - Join Us:

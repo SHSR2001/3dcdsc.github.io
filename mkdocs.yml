@@ -71,7 +71,7 @@ nav:
     - Google Tech Challenge 2021:
         - Introduction: "gtc.md"
         - Android:
-          - Introduction: "gtc/android/gtc.md"
+          - Introduction: "gtc/android/android.md"
           - Day 0 - Environment Setup: "gtc/android/day0a.md"
     - Past Events:
       - Recess Week Challenge 2020:

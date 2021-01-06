@@ -1,6 +1,6 @@
 # 3DC Official Website
 
-![](https://github.com/3DCdsc/3dcdsc.github.io/workflows/Deploy/badge.svg?branch=master) @ [3dcdsc.github.io](https://3dcdsc.github.io/)
+![](https://github.com/3DCdsc/3dcdsc.github.io/workflows/Deploy/badge.svg?branch=master) @ [3dc.opensutd.org](https://3dc.opensutd.org/)
 
 ## About 3DC
 

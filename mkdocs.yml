@@ -84,6 +84,9 @@ nav:
           - Q5 Hints: "Recess_Week_Challenge_Stuff/q5_hints.md"
   - Google Tech Challenge 2021:
     - Introduction: "gtc.md"
+    - "Web: Cookerino Website":
+      - "Day 1: Back-end (Django) Development": "gtc/web/day1.md"
+      - "Day 2: Front-end (React) Development": "gtc/web/day2.md"
     # - Android:
     #   - Introduction: "gtc/android/android.md"
     #   - Day 0 - Environment Setup: "gtc/android/day0a.md"

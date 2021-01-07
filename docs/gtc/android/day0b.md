@@ -117,6 +117,32 @@ public class Test {
 } 
 ```
 
+## Type-casting (Strings and Integers)
+
+Recall that in Python, sometimes you need to convert a variable from one type to another (most commonly from `int` to `String` and vice versa). Here is an example
+
+```python
+a = 1 # An int
+b = str(a) # Convert a to string
+
+c = "2" # A string
+d = int(c) # Convert c to int
+```
+
+In Java, you perform type-casting this way:
+
+```java
+public class Test {
+  public static void main(String[] args) {
+    int a = 1; // An int
+    String b = Integer.toString(a); // Convert a to string
+
+    String c = "2"; // A string
+    int d = Integer.parseInt(c); // Convert c to int
+  }
+}
+```
+
 ## Object-Oriented Programming
 
 Declaring a class in Python and creating an instance:
@@ -158,7 +184,6 @@ public class Test {
     System.out.println(sc.x); // Prints 1
   }
 }
-
 ```
 
 ### References

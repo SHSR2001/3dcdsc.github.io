@@ -4,7 +4,7 @@
 
 > We assume you have some Python experience from Computatoinal Thinking for Design or Digital World
 
-> Psst, use <https://www.tutorialspoint.com/compile_java_online.php> for an easy-to-use online Java code editor. Press the execute on the top left to run your code.
+> Psst, for now, use <https://www.tutorialspoint.com/compile_java_online.php> for an easy-to-use online Java code editor (instead of having to figure out Android Studio). Press the execute on the top left to run your code.
  
 ## Code Comments
 

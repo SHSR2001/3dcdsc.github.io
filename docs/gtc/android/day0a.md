@@ -26,4 +26,6 @@ Android Studio has been installed, but it still needs to download some dependenc
 
 ![](../../imgs/gtc/android/android_firsttime.png)
 
-We're done installaing! Let's launch Android Studio and proceed with the Java tutorial!(For those who have never touched Java before)
+We're done installing! 
+
+Let's proceed with the Java tutorial!(For those who have never touched Java before)

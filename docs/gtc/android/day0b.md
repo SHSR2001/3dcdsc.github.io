@@ -143,8 +143,8 @@ Declaring a class in Java and creating an instance:
 
 ```java
 class SomeClass {
-	int x; // Class attribute declared here
-	int y;
+  int x; // Class attribute declared here
+  int y;
 
   SomeClass(int x, int y) {
     this.x = x; // Class attribute assigned here

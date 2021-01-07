@@ -87,6 +87,9 @@ nav:
     - Android:
       - Introduction: "gtc/android/android.md"
       - Day 0 - Environment Setup: "gtc/android/day0a.md"
+      - Day 0 - Java Tutorial: "gtc/android/day0b.md"
+      # - Day 2.0 - Firebase Introduction: "gtc/android/day2-firebase-intro.md"
+      # - Day 2.1 - Adding Firebase to Your Project: "gtc/android/day2-firebase-sdk.md"
   - Meet The Team:
       - Core Team: "core_team.md"
       - Join Us:

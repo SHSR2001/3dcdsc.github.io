@@ -37,15 +37,15 @@ markdown_extensions:
   - pymdownx.superfences # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#superfences
   - pymdownx.smartsymbols # supporting special characters like copyright symbol (c)
   - pymdownx.arithmatex: # https://squidfunk.github.io/mkdocs-material/reference/mathjax/#arithmatex
-    generic: true
+      generic: true
   - pymdownx.emoji: # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#emoji
-    emoji_index: !!python/name:materialx.emoji.twemoji
-    emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.tasklist: # https://squidfunk.github.io/mkdocs-material/reference/lists/#tasklist
-    custom_checkbox: true
-    clickable_checkbox: true
+      custom_checkbox: true
+      clickable_checkbox: true
   - toc: # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#table-of-contents
-    permalink: true
+      permalink: true
 
 # Extra Style
 extra_javascript:

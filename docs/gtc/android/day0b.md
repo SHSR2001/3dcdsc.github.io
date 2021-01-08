@@ -143,6 +143,43 @@ public class Test {
 }
 ```
 
+## `If` Statements
+
+Recall in python how to write `if/else` statements to compare strings:
+
+```python
+a = "cat"
+
+if a == "dog":
+  print("I am a dog")
+elif a == "cat":
+  print("I am a cat")
+else:
+  print("I am not a cat or dog")
+```
+
+**In Java, not only do `if` statements have a slightly different syntax, `String` comparison is different.**
+
+- `elif` is `else if` in java
+- Use curly braces instead of semi-colon
+- Use `.equals()` instead of `==` to compare strings *(NOTE: `==` works sometimes (such as in this case), but many other times it doesn't work the way we want it to. See [this post](https://stackoverflow.com/a/513839/10696773) for a good explanation why)*
+
+```Java
+public class Test {
+  public static void main(String[] args) {
+    String a = "cat";
+
+    if (a.equals("dog")) {
+      System.out.println("I am a dog");
+    } else if (a.equals("cat")) {
+      System.out.println("I am a cat");
+    } else {
+      System.out.println("I am not a cat or dog");
+    }
+  }
+}
+```
+
 ## Object-Oriented Programming
 
 Declaring a class in Python and creating an instance:
@@ -186,6 +223,6 @@ public class Test {
 }
 ```
 
-### References
+## References
 
 [Java Tutorial](https://www.w3schools.com/java/default.asp)

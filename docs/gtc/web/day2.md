@@ -4,6 +4,6 @@
 > 
 > Stream Link: <https://www.twitch.tv/3dcdsc>
 > 
-> VOD: To be released
+> VOD: <https://youtu.be/75AzmqMqVH0>
 
 **Link to Session Materials: <https://github.com/Reckonzz/ReactWorkshop_cookerino_student_version>**

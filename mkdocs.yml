@@ -106,10 +106,10 @@ nav:
       - Day 0 - Java Tutorial: "gtc/android/day0b.md"
       # - Day 2.0 - Firebase Introduction: "gtc/android/day2-firebase-intro.md"
       # - Day 2.1 - Adding Firebase to Your Project: "gtc/android/day2-firebase-sdk.md"
-  # - Resources:
-  #     - Demo Page: "demo.md"
   - About Us:
       - Core Team: "core_team.md"
       - Join Us:
         - Join 3DC Membership: "3dc_membership.md"
         - Join 3DC Core Team: "join_3dc_core.md"
+      - Resources:
+        - Demo Page: "demo.md"

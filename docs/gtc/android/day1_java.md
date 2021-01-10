@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
 
 ### setContentView()
 
-Similar to what we did in MainActivity, use setContentView() to set the activity content to the corresponding xml file.
+Similar to what we did in MainActivity, use `setContentView()` to set the activity content to the corresponding xml file.
 
 ```java
 public class ChoosePetActivity1 extends AppCompatActivity {
@@ -256,7 +256,7 @@ private void goNextActivity() {
 }
 ```
 
-Hence, our setOnClickListener would look first edit the shared preference to store the key value pair for pet choice, and then execute the method `goNextActivity()`.
+Hence, our `setOnClickListener()` would look first edit the shared preference to store the key value pair for pet choice, and then execute the method `goNextActivity()`.
 
 ```java
 catImage.setOnClickListener(view -> {
@@ -335,7 +335,7 @@ public class ChoosePetActivity1 extends AppCompatActivity {
 
 ## ChoosePetActivity2
 
-ChoosePetActivity2 is largely the same as ChoosePetActivity1. 
+`ChoosePetActivity2` is largely the same as `ChoosePetActivity1`. 
 
 There are just 2 small changes to be made.
 
@@ -412,7 +412,7 @@ Create a new Java file for MyPetActivity.
 
 ### onCreate() and setContentView()
 
-Similarly, override onCreate() method and set content view to the corresponding xml file. 
+Similarly, override `onCreate()` method and set content view to the corresponding xml file. 
 
 ```java
 public class MyPetActivity extends AppCompatActivity {
@@ -452,7 +452,7 @@ First, get a copy of the Shared Preferences.
 
 `SharedPreferences sharedPref = getSharedPreferences(getString(R.string.preference_file_key), Context.MODE_PRIVATE);`
 
-Next, get the values for pet1 and pet2 from Shared Preferences. We can set the default value of pet1 to be cat and pet2 to be dog.
+Next, get the values for `pet1` and `pet2` from Shared Preferences. We can set the default value of `pet1` to be cat and `pet2` to be dog.
 
 ```java
 @Override
@@ -478,7 +478,7 @@ protected void onCreate(Bundle savedInstanceState) {
 
 Since each pet has the same behavior, we can use a function to avoid unnecessary repetition of the code. 
 
-initializeWidgetForPet() will do 3 things.
+`initializeWidgetForPet()` will do 3 things.
 
 1) Display the corresponding image for the selected pet
 
@@ -498,7 +498,7 @@ private void initialiseWidgetsForPet(ImageView petImage, TextView hungerText, Bu
 
 We can just check the type of pet using the input String "pet". 
 
-We can then use setImageResource() to display the corresponding image for each pet. 
+We can then use `setImageResource()` to display the corresponding image for each pet. 
 
 ```java
 private void initialiseWidgetsForPet(ImageView petImage, TextView hungerText, Button petButton, String pet) {
@@ -514,7 +514,7 @@ private void initialiseWidgetsForPet(ImageView petImage, TextView hungerText, Bu
 
 ### Initialize Hunger Value
 
-The hunger value is stored as the String value in the text of the hungerText TextView. Using setText(), we can initalize the value to 100. 
+The hunger value is stored as the String value in the text of the hungerText TextView. Using `setText()`, we can initalize the value to 100. 
 
 ```java
 private void initialiseWidgetsForPet(ImageView petImage, TextView hungerText, Button petButton, String pet) {
@@ -532,7 +532,7 @@ private void initialiseWidgetsForPet(ImageView petImage, TextView hungerText, Bu
 
 ### setOnClickListener()
 
-The petButton gets the Integer of the hunger level from the hungerText TextView, increments it by 1 and sets the text value of the hungerText TextView to the new value.
+The `petButton` gets the Integer of the hunger level from the `hungerText` TextView, increments it by 1 and sets the text value of the `hungerText` TextView to the new value.
 
 ```java
 private void initialiseWidgetsForPet(ImageView petImage, TextView hungerText, Button petButton, String pet) {

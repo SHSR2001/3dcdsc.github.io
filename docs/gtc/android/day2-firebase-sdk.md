@@ -47,12 +47,26 @@ Go to <https://firebase.google.com>, and sign in with a Google account. After lo
 
     ![](../../imgs/gtc/android/google_services_json.png)
 
-9. We now need to add Firebase SDK to our app. Go to the **project-level** `build.gradle` and add `classpath 'com.google.gms:google-services:4.3.4'` under `dependencies`.
+9. We now need to add Firebase SDK to our app. Go to the **project-level** `build.gradle` and add the following code under `dependencies`:
+
+    ```groovy
+    classpath 'com.google.gms:google-services:4.3.4'
+    ```
 
     ![](../../imgs/gtc/android/firebase_sdk_project_dependency.png)
 
-10. Now go to the **module-level** `build.gradle`. Add `id 'com.google.gms.google-services'` under `plugins`
-11. Add `implementation platform('com.google.firebase:firebase-bom:26.2.0')` under `dependencies`
+10. Now go to the **module-level** `build.gradle`. Add the following code under `plugins`:
+
+    ```groovy
+    id 'com.google.gms.google-services'
+    ```
+
+11. While still in **module-level** `build.gradle`, add the following code under `dependencies`:
+
+    ```groovy
+    implementation platform('com.google.firebase:firebase-bom:26.2.0')
+    ```
+
 12. Press **Sync Now** near the top right.
 
     ![](../../imgs/gtc/android/firebase_sdk_module_dependency.png)

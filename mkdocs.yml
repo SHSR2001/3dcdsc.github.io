@@ -94,6 +94,8 @@ nav:
       - Day 1: "gtc/android/day1.md"
       - Day 2.0 - Firebase Introduction: "gtc/android/day2-firebase-intro.md"
       - Day 2.1 - Adding Firebase to Your Project: "gtc/android/day2-firebase-sdk.md"
+      - Day 2.2 - Adding Firebase Auth: "gtc/android/day2-firebase-auth.md"
+      - Day 2.3 - Adding Firebase Realtime Database: "gtc/android/day2-firebase-db.md"
   - Meet The Team:
       - Core Team: "core_team.md"
       - Join Us:

@@ -16,9 +16,11 @@ Stream Link: Please join the [Microsoft Teams Group](https://teams.microsoft.com
 
 Before the workshop begins, do take a look at the pre-reading material (can be found on the left navigation bar). The material will guide you through installing Android Studio and some Java Basics.
 
-**Session 1 (11 Jan Monday, 2pm-6pm): Android Fundamentals.** Participants will learn the fundamentals of the architecture underlying an Android application. They will learn how to create UI elements and how to create interactions between the user and these elements. 
+**Session 1 (11 Jan Monday, 2pm-6pm): Android Fundamentals.** Participants will learn the fundamentals of the architecture underlying an Android application. They will learn how to create UI elements and how to create interactions between the user and these elements.
 
-**Session 2 (12 Jan Tuesday, 2pm-6pm): App Interactivity.** Participants will learn how to add deeper online integrations into their application with Firebase Cloud Functions and Realtime Database and Storage
+Full completed project for Session 1: <https://github.com/3DCdsc/AndroidIAP2021>
+
+**Session 2 (12 Jan Tuesday, 2pm-6pm): App Interactivity.** Participants will learn how to add deeper online integrations into their application with Firebase Auth and Realtime Database and Storage
 
 ## Resources
 
@@ -26,4 +28,6 @@ Refer to the navigation bar on the left for resources
 
 ## VODS
 
-To be released
+Session 1: <https://youtu.be/K9mJytNWLdY>
+
+Session 2: To be released

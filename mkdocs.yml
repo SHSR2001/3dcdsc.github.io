@@ -17,23 +17,36 @@ theme:
     logo: fontawesome/solid/code
   features:
     - navigation.tabs
+    - navigation.expand
   palette:
     scheme: slate
     primary: teal
     accent: indigo
 
 # Extensions
+# https://squidfunk.github.io/mkdocs-material/reference/abbreviations/
 markdown_extensions:
-  - pymdownx.highlight
-  - pymdownx.superfences
-  - pymdownx.emoji:
+  - attr_list # https://squidfunk.github.io/mkdocs-material/reference/buttons/#attribute-list
+  - admonition # https://squidfunk.github.io/mkdocs-material/reference/admonitions/#admonition
+  - pymdownx.caret # handling sub- and superscripts
+  - pymdownx.mark # highlighting of text
+  - pymdownx.tilde # strikethrough of text
+  - pymdownx.keys # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#keys
+  - pymdownx.tabbed # https://squidfunk.github.io/mkdocs-material/reference/content-tabs/#tabbed
+  - pymdownx.details # https://squidfunk.github.io/mkdocs-material/reference/admonitions/#details
+  - pymdownx.highlight # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#code-blocks
+  - pymdownx.superfences # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#superfences
+  - pymdownx.smartsymbols # supporting special characters like copyright symbol (c)
+  - pymdownx.arithmatex: # https://squidfunk.github.io/mkdocs-material/reference/mathjax/#arithmatex
+      generic: true
+  - pymdownx.emoji: # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#emoji
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-  - toc:
-      permalink: "#"
-  - pymdownx.arithmatex:
-      generic: true
-  - attr_list
+  - pymdownx.tasklist: # https://squidfunk.github.io/mkdocs-material/reference/lists/#tasklist
+      custom_checkbox: true
+      clickable_checkbox: true
+  - toc: # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#table-of-contents
+      permalink: true
 
 # Extra Style
 extra_javascript:
@@ -91,13 +104,17 @@ nav:
       - Introduction: "gtc/android/android.md"
       - Day 0 - Environment Setup: "gtc/android/day0a.md"
       - Day 0 - Java Tutorial: "gtc/android/day0b.md"
-      - Day 1: "gtc/android/day1.md"
-      - Day 2.0 - Firebase Introduction: "gtc/android/day2-firebase-intro.md"
-      - Day 2.1 - Adding Firebase to Your Project: "gtc/android/day2-firebase-sdk.md"
-      - Day 2.2 - Adding Firebase Auth: "gtc/android/day2-firebase-auth.md"
-      - Day 2.3 - Adding Firebase Realtime Database: "gtc/android/day2-firebase-db.md"
-  - Meet The Team:
+      - Day 1.1 - Introduction to Android Studio: "gtc/android/day1_androidstudio.md"
+      - Day 1.2 - Introduction to GUI: "gtc/android/day1_gui.md"
+      - Day 1.3 - Java in Android: "gtc/android/day1_java.md"
+      - Day 2.1 - Firebase Introduction: "gtc/android/day2-firebase-intro.md"
+      - Day 2.2 - Adding Firebase to Your Project: "gtc/android/day2-firebase-sdk.md"
+      - Day 2.3 - Adding Firebase Auth: "gtc/android/day2-firebase-auth.md"
+      - Day 2.4 - Adding Firebase Realtime Database: "gtc/android/day2-firebase-db.md"
+  - About Us:
       - Core Team: "core_team.md"
       - Join Us:
         - Join 3DC Membership: "3dc_membership.md"
         - Join 3DC Core Team: "join_3dc_core.md"
+      - Resources:
+        - Demo Page: "demo.md"

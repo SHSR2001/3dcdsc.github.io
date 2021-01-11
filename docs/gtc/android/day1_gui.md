@@ -1,4 +1,4 @@
-# Day 1:
+# Day 1: Introduction to Android GUI
 
 ## Start Page 
 

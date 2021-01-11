@@ -1,4 +1,4 @@
-# Day 1:
+# Day 1: Introduction to Android Studio
 
 Welcome to the Android Workshop! For the workshop, we will be going through hands-on activities on how to create an Android App from scratch. We will be creating a "Virtual Pets" app. Our virtual pets app will be a simple app where you have pets on your mobile phone, and you can feed these pets. We will cover the following topics today:
 

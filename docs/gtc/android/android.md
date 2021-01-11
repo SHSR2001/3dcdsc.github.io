@@ -18,7 +18,7 @@ Before the workshop begins, do take a look at the pre-reading material (can be f
 
 **Session 1 (11 Jan Monday, 2pm-6pm): Android Fundamentals.** Participants will learn the fundamentals of the architecture underlying an Android application. They will learn how to create UI elements and how to create interactions between the user and these elements. 
 
-**Session 2 (12 Jan Tuesday, 2pm-6pm): App Interactivity.** Participants will learn how to add deeper online integrations into their application with Firebase Cloud Functions and Realtime Database and Storage
+**Session 2 (12 Jan Tuesday, 2pm-6pm): App Interactivity.** Participants will learn how to add deeper online integrations into their application with Firebase Auth and Realtime Database and Storage
 
 ## Resources
 

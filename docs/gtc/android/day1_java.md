@@ -23,9 +23,9 @@ MainActivity will be our start screen. It will contain a start button that when 
 
 ### Overriding onCreate()
 
-First, we modify the `onCreate()` method in the `MainActivity` class. We override it. 
+First, we need to have the `onCreate()` method in the `MainActivity` class. We override it. 
 
-We add `super.onCreate(savedInstanceState)` so that the `onCreate()` of the parent class is run.
+We add `super.onCreate(savedInstanceState)` so that the `onCreate()` of the parent class is run. (Should be auto-generated already)
 
 ```java
 package com.example.virtualpets;
@@ -60,7 +60,7 @@ protected void onCreate(Bundle savedInstanceState) {
 
 ### findViewById()
 
-The `activity_main.xml` file contains a button with the id "startButton". To define the Button widget in our Java file, we need to instantiate an Object of the Button class and assign the reference to the button. This can be done through the `findViewById()` method. 
+The `activity_main.xml` file contains a button with the id "startButton". To define the Button widget in our Java file, we need to instantiate(create) an Object of the Button class and assign the reference to the button. This can be done through the `findViewById()` method. 
 
 Do remember to import the Button by adding `import android.widget.Button;` to the top of the file.
 
@@ -86,7 +86,7 @@ protected void onCreate(Bundle savedInstanceState) {
 	
 	button.setOnClickListener(view -> {
             button.setText("Hello");
-        });
+    });
 }
 ```
 
@@ -96,8 +96,8 @@ An intent is an abstract description of an operation to be performed. When used 
 
 ```java
 button.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this, ChoosePetActivity1.class);
-            startActivity(intent);
+        Intent intent = new Intent(MainActivity.this, ChoosePetActivity1.class);
+        startActivity(intent);
 });
 ```
 
@@ -144,7 +144,7 @@ ChoosePetActivity1 is an activity for the user to select their first pet. It wil
 
 ### setContentView()
 
-Similar to what we did in MainActivity, use `setContentView()` to set the activity content to the corresponding xml file.
+Similar to what we did in MainActivity, use `setContentView()` to set the activity content to the corresponding xml file. (The code is usually generated for you already)
 
 ```java
 public class ChoosePetActivity1 extends AppCompatActivity {
@@ -177,33 +177,39 @@ Define the 3 images in our xml by using `findViewById()`. Start by importing Ima
 
 SharedPreferences is used to access and modify preference data. For any particular set of preferences, all clients share a single instance of the class. This allow usage of SharedPreference to save key-value data for the application. However, this is only reccomended for a relatively small collection of data. SharedPreferences uses expensive operations which may slow down an application, especially when frequently changed. 
 
-Under `res/values/strings`, add a `preference_file_key`.
+Under `res/values/strings.xml`, add a `preference_file_key`. The `name` refers to the key or tag you are giving to this string. The `VirtualPetsPreferenceKey` is the actual string value itself.
 
 ```java
 <resources>
-    <string name="app_name">VirtualPetsStarter</string>
+    ...
     <string name="preference_file_key">VirtualPetsPreferenceKey</string>
 </resources>
 ```
+
+Here is how it should look after that
+
+![](../../imgs/gtc/android/strings_xml.png)
 
 Navigate back to the [ChoosePetActivity1.java](http://choosepetactivity1.java) file.
 
 Start by importing SharedPreferences using `import android.content.SharedPreferences;` 
 
-Instantiate a SharedPreference object and get a reference.
+Get a reference to our `SharedPreferences` file by using `getSharedPreferences`.
+
+Note that the above `getString(R.string.preference_key_file)` gets a string from `strings.xml`. This string will help us to determine which SharedPreference file we are using. We will be access this same SharedPreference file in the future as well.
 
 ```java
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_choose_pet1);
-				
-				ImageView catImage = findViewById(R.id.catImage);
-        ImageView dogImage = findViewById(R.id.dogImage);
-        ImageView fishImage = findViewById(R.id.fishImage);
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_choose_pet1);
+            
+    ImageView catImage = findViewById(R.id.catImage);
+    ImageView dogImage = findViewById(R.id.dogImage);
+    ImageView fishImage = findViewById(R.id.fishImage);
 
-				SharedPreferences sharedPref = getSharedPreferences(getString(R.string.preferences_file_key), Context.MODE_PRIVATE);
-		}
+    SharedPreferences sharedPref = getSharedPreferences(getString(R.string.preferences_file_key), Context.MODE_PRIVATE);
+}
 ```
 
 To edit a key value pair, use the following method
@@ -211,6 +217,8 @@ To edit a key value pair, use the following method
 
 To access a key value pair, use the following method
 `sharedPref.getString("key","default_value");`
+
+> NOTE: This `sharedPref.getString()` is different from the `getString()` we used above!!! `sharedPref.getString()` gets a string from our SharedPreference file, while `getString()` gets a string from our `strings.xml`
 
 We will take a look at accessing and editing key value pairs in shared preferences a bit later. 
 
@@ -249,7 +257,7 @@ After storing the key value pair, we want to proceed to start the next activity 
 
 ```java
 protected void onCreate(Butndle savedInstanceState) {
-		...
+    // code not shown
 }
 
 private void goNextActivity() {
@@ -412,11 +420,9 @@ public class ChoosePetActivity2 extends AppCompatActivity {
 ## MyPetActivity
 MyPetActivity is the activity for the management for the pets. It will list each pet, and allow the user to feed each pet, and change the pet's hunger level accordingly. 
 
-Create a new Java file for MyPetActivity.
-
 ### onCreate() and setContentView()
 
-Similarly, override `onCreate()` method and set content view to the corresponding xml file. 
+Similarly, we need override `onCreate()` method and set content view to the corresponding xml file. (This code should already be there)
 
 ```java
 public class MyPetActivity extends AppCompatActivity {
@@ -440,13 +446,13 @@ protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_my_pet);
 
-		ImageView pet1Image = findViewById(R.id.pet1Image);
-		TextView pet1HungerText = findViewById(R.id.pet1HungerText);
-		Button pet1Button = findViewById(R.id.pet1Button);
-		
-		ImageView pet2Image = findViewById(R.id.pet2Image);
-		TextView pet2HungerText = findViewById(R.id.pet2HungerText);
-		Button pet2Button = findViewById(R.id.pet2Button);
+    ImageView pet1Image = findViewById(R.id.pet1Image);
+    TextView pet1HungerText = findViewById(R.id.pet1HungerText);
+    Button pet1Button = findViewById(R.id.pet1Button);
+    
+    ImageView pet2Image = findViewById(R.id.pet2Image);
+    TextView pet2HungerText = findViewById(R.id.pet2HungerText);
+    Button pet2Button = findViewById(R.id.pet2Button);
 }
 ```
 
@@ -466,17 +472,17 @@ protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_my_pet);
 
-		ImageView pet1Image = findViewById(R.id.pet1Image);
-		TextView pet1HungerText = findViewById(R.id.pet1HungerText);
-		Button pet1Button = findViewById(R.id.pet1Button);
-		
-		ImageView pet2Image = findViewById(R.id.pet2Image);
-		TextView pet2HungerText = findViewById(R.id.pet2HungerText);
-		Button pet2Button = findViewById(R.id.pet2Button);
+    ImageView pet1Image = findViewById(R.id.pet1Image);
+    TextView pet1HungerText = findViewById(R.id.pet1HungerText);
+    Button pet1Button = findViewById(R.id.pet1Button);
+    
+    ImageView pet2Image = findViewById(R.id.pet2Image);
+    TextView pet2HungerText = findViewById(R.id.pet2HungerText);
+    Button pet2Button = findViewById(R.id.pet2Button);
 
-		SharedPreferences sharedPref = getSharedPreferences(getString(R.string.preference_file_key), Context.MODE_PRIVATE);
-		String pet1 = sharedPref.getString("pet1","cat");
-		String pet2 = sharedPref.getString("pet2","dog");
+    SharedPreferences sharedPref = getSharedPreferences(getString(R.string.preference_file_key), Context.MODE_PRIVATE);
+    String pet1 = sharedPref.getString("pet1","cat");
+    String pet2 = sharedPref.getString("pet2","dog");
 }
 ```
 
@@ -496,7 +502,7 @@ Start by defining the method `initializeWidgetForPet()`
 
 ```java
 private void initialiseWidgetsForPet(ImageView petImage, TextView hungerText, Button petButton, String pet) {
-        //Code goes here
+    // Code goes here
 }
 ```
 
@@ -508,13 +514,13 @@ We can then use `setImageResource()` to display the corresponding image for each
 
 ```java
 private void initialiseWidgetsForPet(ImageView petImage, TextView hungerText, Button petButton, String pet) {
-		if (pet.equals("cat")) {
-		    petImage.setImageResource(R.drawable.cat);
-		} else if (pet.equals("dog")) {
-		    petImage.setImageResource(R.drawable.dog);
-		} else {   
-		    petImage.setImageResource(R.drawable.fish);
-		}
+    if (pet.equals("cat")) {
+        petImage.setImageResource(R.drawable.cat);
+    } else if (pet.equals("dog")) {
+        petImage.setImageResource(R.drawable.dog);
+    } else {   
+        petImage.setImageResource(R.drawable.fish);
+    }
 }
 ```
 
@@ -524,15 +530,15 @@ The hunger value is stored as the String value in the text of the hungerText Tex
 
 ```java
 private void initialiseWidgetsForPet(ImageView petImage, TextView hungerText, Button petButton, String pet) {
-		if (pet.equals("cat")) {
-		    petImage.setImageResource(R.drawable.cat);
-		} else if (pet.equals("dog")) {
-		    petImage.setImageResource(R.drawable.dog);
-		} else {   
-		    petImage.setImageResource(R.drawable.fish);
-		}
+    if (pet.equals("cat")) {
+        petImage.setImageResource(R.drawable.cat);
+    } else if (pet.equals("dog")) {
+        petImage.setImageResource(R.drawable.dog);
+    } else {   
+        petImage.setImageResource(R.drawable.fish);
+    }
 
-		hungerText.setText(Integer.toString(100));
+    hungerText.setText(Integer.toString(100));
 }
 ```
 
@@ -542,20 +548,20 @@ The `petButton` gets the Integer of the hunger level from the `hungerText` TextV
 
 ```java
 private void initialiseWidgetsForPet(ImageView petImage, TextView hungerText, Button petButton, String pet) {
-		if (pet.equals("cat")) {
-		    petImage.setImageResource(R.drawable.cat);
-		} else if (pet.equals("dog")) {
-		    petImage.setImageResource(R.drawable.dog);
-		} else {   
-		    petImage.setImageResource(R.drawable.fish);
-		}
+    if (pet.equals("cat")) {
+        petImage.setImageResource(R.drawable.cat);
+    } else if (pet.equals("dog")) {
+        petImage.setImageResource(R.drawable.dog);
+    } else {   
+        petImage.setImageResource(R.drawable.fish);
+    }
 
-		hungerText.setText(Integer.toString(100));
+    hungerText.setText(Integer.toString(100));
 
-		petButton.setOnClickListener(view -> {
-	      int oldHunger = Integer.parseInt(hungerText.getText().toString());
-	      hungerText.setText(Integer.toString(oldHunger + 1));
-	  });
+    petButton.setOnClickListener(view -> {
+        int oldHunger = Integer.parseInt(hungerText.getText().toString());
+        hungerText.setText(Integer.toString(oldHunger + 1));
+    });
 }
 ```
 

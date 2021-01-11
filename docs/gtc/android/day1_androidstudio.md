@@ -1,5 +1,14 @@
 # Day 1:
 
+Welcome to the Android Workshop! For the workshop, we will be going through hands-on activities on how to create an Android App from scratch. We will be creating a "Virtual Pets" app. Our virtual pets app will be a simple app where you have pets on your mobile phone, and you can feed these pets. We will cover the following topics today:
+
+1. Creating Activities (Pages) for our Android App
+2. Creating/Designing an Android GUI
+3. Android Activity Lifecycle
+4. Scripting interactions between user and mobile app
+
+Tomorrow, we will be covering how to use Firebase (a simplified cloud platform) to enable additional interactive functionalities using authentication and online data storage.
+
 ## Creating New Project 
 
 Welcome to Android Studio! This will be the starting page: click on "Create New Project"

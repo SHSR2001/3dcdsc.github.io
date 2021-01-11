@@ -29,4 +29,5 @@ Refer to the navigation bar on the left for resources
 ## VODS
 
 Session 1: <https://youtu.be/K9mJytNWLdY>
+
 Session 2: To be released

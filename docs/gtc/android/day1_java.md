@@ -1,6 +1,5 @@
 # Day 1:
 
-Home
 
 ## Activity Life Cycle
 
@@ -17,6 +16,45 @@ Home
 `onStop()` is invoked after the activity is no longer visible to the user.
 
 `onDestroy()` is called before the activity is destroyed, after the completion of the event or from `finish()` being called
+
+## Debugging
+
+Debugging is the practice of finding/resolving bugs in our Android app. Most of the time, it involves having to find out if certain blocks of code have been executed properly, or to check the values of some variables.
+
+### Using `Log`
+
+Remember `System.out.println()` from our Day 0 Java Tutorial? In Android, we can use something similar, called `Log` to print out messages.
+
+For example, in `MainActivity.java`, in the `onCreate()` function, write
+
+```java
+Log.i("MainActivity", "Hello World");
+```
+
+> Note: Log may appear red in your editor, which indicates an error. The error is because we need to import dependencies for `Log`. Do that by placing your text cursor over `Log`, wait for a line to appear under it and press `Alt + Enter` on your keyboard.
+
+If you go to the bottom right of your Android Studio and look for **Logcat**, open it and run the app, you should be able to see see the following
+
+![](../../imgs/gtc/android/log_i.png)
+
+Note that the Logcat at the bottom has filters that allows you to choose different devices, different processes and different log levels to show. `Log.i` prints **INFO** type messages. There are other functions like `Log.d` that prints **DEBUG** type messsages, and `Log.e` that prints **ERROR** type messages.
+
+### Using the Debugger
+
+Android Studio gives you the capability to run the Android app is **Debug mode**. You are also able to set **breakpoints** in your code. In debug mode, Android Studio will cause a "pause" whenever you encounter these **breakpoints**, just before that line of code would be executed. You can choose to inspect the values of variables, or simply check that that part of the code is executed. After which, you can also choose to resume to program, or go through each subsequent line step-by-step.
+
+To create a breakpoint at a line, you can click on the small space at the right side of the line number. A red circle will appear, indicating the breakpoint has been set.
+
+To run the program in debug mode, click on the **green bug icon** in your run bar at the top right
+
+![](../../imgs/gtc/android/debugger.png)
+
+When you run the program, you should see the debug panel pop out at the bottom, where you can inspect the variables or choose to continue by clicking on the play button on the left.
+
+![](../../imgs/gtc/android/debugger_pause.png)
+
+> Note: Debug mode tends to slow your program quite significantly, so you should only use it when you need it.
+
 
 ## MainActivity.java
 MainActivity will be our start screen. It will contain a start button that when pressed goes to the next activity.

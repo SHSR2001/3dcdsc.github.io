@@ -19,6 +19,7 @@ Home
 `onDestroy()` is called before the activity is destroyed, after the completion of the event or from `finish()` being called
 
 ## MainActivity.java
+MainActivity will be our start screen. It will contain a start button that when pressed goes to the next activity.
 
 ### Overriding onCreate()
 
@@ -139,6 +140,7 @@ public class MainActivity extends AppCompatActivity {
 </details>
 
 ## ChoosePetActivity1
+ChoosePetActivity1 is an activity for the user to select their first pet. It will contain 3 different images, each indicating a pet. When clicked, the first pet will be set to the corresponding pet. Selecting a pet will go to the next activity.
 
 ### setContentView()
 
@@ -334,6 +336,7 @@ public class ChoosePetActivity1 extends AppCompatActivity {
 
 
 ## ChoosePetActivity2
+ChoosePetActivity2 allows the user to select their 2nd pet. After selecting the 2nd pet, the app will go to the next activity.
 
 `ChoosePetActivity2` is largely the same as `ChoosePetActivity1`. 
 
@@ -407,6 +410,7 @@ public class ChoosePetActivity2 extends AppCompatActivity {
 </details>
 
 ## MyPetActivity
+MyPetActivity is the activity for the management for the pets. It will list each pet, and allow the user to feed each pet, and change the pet's hunger level accordingly. 
 
 Create a new Java file for MyPetActivity.
 
@@ -446,13 +450,15 @@ protected void onCreate(Bundle savedInstanceState) {
 }
 ```
 
-### sharedPreferences
+### sharedPreferences and getString()
 
 First, get a copy of the Shared Preferences.
 
 `SharedPreferences sharedPref = getSharedPreferences(getString(R.string.preference_file_key), Context.MODE_PRIVATE);`
 
-Next, get the values for `pet1` and `pet2` from Shared Preferences. We can set the default value of `pet1` to be cat and `pet2` to be dog.
+Next, get the values for `pet1` and `pet2` from Shared Preferences using getString method. We can set the default value of `pet1` to be cat and `pet2` to be dog. 
+The getString() is used to retrieve a String value from the preferences. 
+```getString(String key, String defValue)``` retrieves the String value with the corresponding key from Shared Preferences. If the preference does not exist, the ```defValue``` is returned instead.
 
 ```java
 @Override

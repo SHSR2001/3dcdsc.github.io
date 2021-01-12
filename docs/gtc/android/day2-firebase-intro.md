@@ -1,4 +1,4 @@
-# Day 2 Part 0: Introduction to Firebase
+# Day 2: Introduction to Firebase
 
 ## Our App So Far
 

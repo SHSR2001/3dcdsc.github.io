@@ -1,4 +1,4 @@
-# Day 2 Part 1: Adding Firebase to your project
+# Day 2: Adding Firebase to your project
 
 Before we are able to use any of Firebase services, you need to connect the Firebase Cloud to your project. Let's begin!
 

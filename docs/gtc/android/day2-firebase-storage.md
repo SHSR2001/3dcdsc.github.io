@@ -1,4 +1,4 @@
-# Day 2.3: Firebase Storage
+# Day 2: Firebase Storage
 
 So far, we have learnt how to store data such as strings, integers on our Realtime Database. However, what if we wanted to store something a little more complex, such as images? For example, let's say we want to give users the option to change the display image of their pets, and we want these images to be shared across any device they use, how should we go about doing that?
 

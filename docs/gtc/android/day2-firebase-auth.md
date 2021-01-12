@@ -30,7 +30,7 @@ For authentication, our technical implementation will be something like this:
 
 To simplify things, we will just enable **Email Sign-in** and **Google Sign-in** for our app.
 
-## Enabling Firebase Auth and Google Sign-in on Firebase Console Website
+## Enabling Firebase Auth and Sign-in Methods on Firebase Console Website
 
 1. Enable Firebase Auth and by clicking on the authentication button.
 
@@ -44,6 +44,7 @@ To simplify things, we will just enable **Email Sign-in** and **Google Sign-in**
 7. We have already added the `SHA-1` fingerprint during the registration of our Firebase App. Just click **Save**.
 
     ![](../../imgs/gtc/android/firebase_auth_save.png)
+    
 8. Do the same for **Email/Password** sign-in
 
 ## Adding dependencies for FirebaseUI to our project

@@ -21,10 +21,8 @@ Most of the above issues listed above can resolved with Firebase. In a nutshell,
 ![](../../imgs/gtc/android/firebase_services.png)
 
 
-First, we will need to [**enable Firebase for our Android app**](). Then, we will focus on just a few core services:
+First, we will need to [**enable Firebase for our Android app**](./day2-firebase-sdk.md). Then, we will focus on just a few core services:
 
-1. [**Auth** to enable a **working login system** for our app]()
-2. [**Realtime Database** to allow us to **store app data online** (e.g. pet data)]()
-3. [**Cloud Functions** to enable **online interactions** in our app (e.g. social interactions like feeding pets)]()
-
-Click on the links above to proceed on!
+1. [**Auth** to enable a **working login system** for our app](./day2-firebase-auth.md)
+2. [**Realtime Database** to allow us to **store app data online** (e.g. pet data)](./day2-firebase-db.md)
+3. [**Storage** to let us store more complex files online (e.g. pet photos) ](./day2-firebase-storage.md)

@@ -28,7 +28,7 @@ For authentication, our technical implementation will be something like this:
    - **If Sign-in Successful**: **Redirect** user to our `ChoosePetActivity1` like normal
    - **If Sign-in Unsuccessful**: **Stay** on `MainActivity`, **display a message (Toast)** telling the user they were unsuccessful in signing in.
 
-To simplify things, we will just enable **Google Sign-in** for our app.
+To simplify things, we will just enable **Email Sign-in** and **Google Sign-in** for our app.
 
 ## Enabling Firebase Auth and Google Sign-in on Firebase Console Website
 
@@ -44,6 +44,7 @@ To simplify things, we will just enable **Google Sign-in** for our app.
 7. We have already added the `SHA-1` fingerprint during the registration of our Firebase App. Just click **Save**.
 
     ![](../../imgs/gtc/android/firebase_auth_save.png)
+8. Do the same for **Email/Password** sign-in
 
 ## Adding dependencies for FirebaseUI to our project
 
@@ -58,11 +59,12 @@ To simplify things, we will just enable **Google Sign-in** for our app.
 
 ## Register Google as a Sign-In provider in our Android App
 
-We'll need to modify the code in the activity that contains the `Start` button. Go to `MainActivity.java` and **add google as a sign-in provider**, by pasting the following code **before** the `onCreate()` function. (Note: `RC_SIGN_IN` is a request code we are using for our request for sign in. When FirebaseUI is done with the sign-in, we will use this request code to identify which is the result for our sign-in)
+We'll need to modify the code in the activity that contains the `Start` button. Go to `MainActivity.java` and **add google and email/password as a sign-in provider**, by pasting the following code **before** the `onCreate()` function. (Note: `RC_SIGN_IN` is a request code we are using for our request for sign in. When FirebaseUI is done with the sign-in, we will use this request code to identify which is the result for our sign-in)
 
 ```java
 List<AuthUI.IdpConfig> providers = Arrays.asList( 
-  new AuthUI.IdpConfig.GoogleBuilder().build());
+    new AuthUI.IdpConfig.EmailBuilder().build(),
+    new AuthUI.IdpConfig.GoogleBuilder().build());
 private static final int RC_SIGN_IN = 0;
 ```
 
@@ -77,11 +79,11 @@ We will use `startActivityForResult` to bring up the new page. This allows us to
 
 ```java
 startActivityForResult( 
-  AuthUI.getInstance()
-    .createSignInIntentBuilder()
-    .setAvailableProviders(providers)
-    .build(),
-  RC_SIGN_IN);
+    AuthUI.getInstance()
+        .createSignInIntentBuilder()
+        .setAvailableProviders(providers)
+        .build(),
+    RC_SIGN_IN);
 ```
 
 Note that we have used `RC_SIGN_IN` as our request code.
@@ -163,6 +165,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     List<AuthUI.IdpConfig> providers = Arrays.asList(
+            new AuthUI.IdpConfig.EmailBuilder().build(),
             new AuthUI.IdpConfig.GoogleBuilder().build());
     private static final int RC_SIGN_IN = 0;
 

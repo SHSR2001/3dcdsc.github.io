@@ -111,6 +111,8 @@ nav:
       - Day 2.2 - Adding Firebase to Your Project: "gtc/android/day2-firebase-sdk.md"
       - Day 2.3 - Adding Firebase Auth: "gtc/android/day2-firebase-auth.md"
       - Day 2.4 - Adding Firebase Realtime Database: "gtc/android/day2-firebase-db.md"
+      - Day 2.5 - Adding Firebase Storage: "gtc/android/day2-firebase-storage.md"
+      - Day 2.6 - (Bonus) Feeding your Friend's Pets: "gtc/android/day2-bonus.md"
   - About Us:
       - Core Team: "core_team.md"
       - Join Us:

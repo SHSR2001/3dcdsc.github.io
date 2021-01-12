@@ -28,6 +28,8 @@ Go to <https://firebase.google.com>, and sign in with a Google account. After lo
 3. Fill in a nickname for `App nickname`
 4. We need the **debug certificate finger**. Open a terminal (look at your bottom bar), and key in the following command (choose based on your OS):
 
+    > If you are facing issues with `keytool`, consider using the GUI method described [here](https://stackoverflow.com/a/33479550/10696773) 
+
     ```bash
     # For Windows
     keytool -list -v -alias androiddebugkey -keystore %USERPROFILE%\.android\debug.keystore

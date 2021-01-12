@@ -22,6 +22,12 @@ Full completed project for Session 1: <https://github.com/3DCdsc/AndroidIAP2021>
 
 **Session 2 (12 Jan Tuesday, 2pm-6pm): App Interactivity.** Participants will learn how to add deeper online integrations into their application with Firebase Auth and Realtime Database and Storage
 
+Full completed project for Session 2: <https://github.com/3DCdsc/AndroidIAP2021/tree/day2>
+
+> Note for Session 2 Project downloaders: I strongly recommend you to use this project only for reference, because to get this project to work, you will also need to go through all the Firebase Console steps still. You will also need to download `google-services.json` into your project's `app` folder.
+
+> Note: If you use git to clone Session 2, remember to switch to the `day2` branch. 
+
 ## Resources
 
 Refer to the navigation bar on the left for resources
@@ -30,4 +36,4 @@ Refer to the navigation bar on the left for resources
 
 Session 1: <https://youtu.be/K9mJytNWLdY>
 
-Session 2: To be released
+Session 2: <https://youtu.be/JHrCWkFdjB4>

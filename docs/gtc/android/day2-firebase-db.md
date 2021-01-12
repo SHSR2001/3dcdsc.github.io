@@ -232,7 +232,7 @@ Let's start!
 2. We will need the user's id, get that by pasting the below code, into the part right after the `Toast.makeText` where we welcome the user.
 
     ```java
-    Toast.makeText(this, "Welcome " + userName, Toast.LENGTH_SHORT).show();
+    String userId = user.getUid();
     ```
 
 3. Then, we will to set up reference to our database and where we expect our user's data to be.
@@ -307,7 +307,16 @@ Let's start!
     int pet2HungerValue = sharedPref.getInt("pet2hunger", 100);
     ```
 
-14. We need to modify the `initialiseWidgetsForPet` function to accept our new initial hunger values as a parameter.
+14. We will also need to update the part where we set the initial values for the pet's hunger in the Firebase Database. Recall that we previously set it to a constant 100, but this value may change depdending on the value we get from sharedPreferences.
+
+    ```java
+    mUserRef.child("pet1").child("type").setValue(pet1);
+    mUserRef.child("pet1").child("hunger").setValue(pet1HungerValue);
+    mUserRef.child("pet2").child("type").setValue(pet2);
+    mUserRef.child("pet2").child("hunger").setValue(pet2HungerValue);
+    ```
+
+15. We need to modify the `initialiseWidgetsForPet` function to accept our new initial hunger values as a parameter.
 
     ```java
     private void initialiseWidgetsForPet(String petId, ImageView petImage, TextView hungerText,
@@ -315,13 +324,13 @@ Let's start!
                                            ...
     ```
 
-15. Then within `initaliseWidgetsForPet`, we need to modify the `hungerText.setText()` to set the initial hunger value to the `petHungerValue`.
+16. Then within `initaliseWidgetsForPet`, we need to modify the `hungerText.setText()` to set the initial hunger value to the `petHungerValue`.
 
     ```java
     hungerText.setText(Integer.toString(petHungerValue));
     ```
 
-16. Phew, we're done! If you test your app now, you should realise that if you have signed in before, you should automatically get brought to the `MyPetActivity` with your previous data.
+17. Phew, we're done! If you test your app now, you should realise that if you have signed in before, you should automatically get brought to the `MyPetActivity` with your previous data.
 
 <details>
   <summary>Final code for MainActivity.java</summary>

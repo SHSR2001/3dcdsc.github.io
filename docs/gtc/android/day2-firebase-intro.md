@@ -1,4 +1,4 @@
-# Day 2 Part 0: Introduction to Firebase
+# Day 2: Introduction to Firebase
 
 ## Our App So Far
 
@@ -25,6 +25,6 @@ First, we will need to [**enable Firebase for our Android app**](). Then, we wil
 
 1. [**Auth** to enable a **working login system** for our app]()
 2. [**Realtime Database** to allow us to **store app data online** (e.g. pet data)]()
-3. [**Cloud Functions** to enable **online interactions** in our app (e.g. social interactions like feeding pets)]()
+3. [**Cloud Functions** to enable **scheduled tasks**(e.g. decreasing pet's hunger value over time)]()
 
 Click on the links above to proceed on!

@@ -549,6 +549,8 @@ Now, we need our `MyPetActivity` to continuously listen for updates from the Fir
 
 To do that, instead of `addListenerForSingleValueEvent()`, we can use `addValueEventListener()`, which constantly listens for changes in values. The syntax is almost the same as `addListenerForSingleValueEvent()`. Think about where to put this code, how to get the correct reference, and what you need to do when the hunger value changes.
 
+> Hint: you can get the value we want with `snapshot.getValue(int.class)`
+
 ```java
 <fillInWithYourRef>.addValueEventListener(new ValueEventListener() {
     @Override
@@ -563,3 +565,21 @@ To do that, instead of `addListenerForSingleValueEvent()`, we can use `addValueE
 });
 ```
 
+<details>
+    <summary>Answer</summary>
+
+```java
+mUserRef.child(petId).child("hunger").addValueEventListener(new ValueEventListener() {
+    @Override
+    public void onDataChange(@NonNull DataSnapshot snapshot) {
+        hungerText.setText(Integer.toString(snapshot.getValue(int.class)));
+    }
+
+    @Override
+    public void onCancelled(@NonNull DatabaseError error) {
+
+    }
+});
+```
+
+</details>

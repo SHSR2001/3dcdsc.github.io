@@ -34,6 +34,10 @@ Refer to the navigation bar on the left for resources
 
 ## VODS
 
-Session 1: <https://youtu.be/K9mJytNWLdY>
+### Session 1
 
-Session 2: <https://youtu.be/JHrCWkFdjB4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K9mJytNWLdY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Session 2
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JHrCWkFdjB4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

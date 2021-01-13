@@ -115,6 +115,8 @@ nav:
       - Day 2.6 - (Bonus) Feeding your Friend's Pets: "gtc/android/day2-bonus.md"
       - Day 2.7 - Distributing your App: "gtc/android/day2-distribute.md"
       - Wrapup: "gtc/android/wrapup.md"
+    - Cloud:
+      - Session 1: "gtc/cloud/cloud.md"
   - About Us:
       - Core Team: "core_team.md"
       - Join Us:

@@ -117,6 +117,9 @@ nav:
       - Wrapup: "gtc/android/wrapup.md"
     - Cloud:
       - Session 1: "gtc/cloud/cloud.md"
+    - Telegram Bot:
+      - Day 1: "gtc/telebot/day1.md"
+      - Day 2: "gtc/telebot/day2.md"
   - About Us:
       - Core Team: "core_team.md"
       - Join Us:

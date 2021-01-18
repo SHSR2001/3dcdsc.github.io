@@ -77,9 +77,11 @@ nav:
   #     - Projects:
   #         - Projects: 'project.md'
   - Workshops:
-      - Upcoming Workshops: "Workshops/upcoming_workshops.md"
-      - Past Workshops: "Workshops/past_workshops.md"
-      - Workshop Organiser Guide: "Workshops/workshop_guide.md"
+      - Upcoming Workshops: 
+        - Intro to Programming: "Workshops/2021/intro_to_programming.md"
+        - Blockchain Development: "Workshops/2021/blockchain_dev_workshop.md"
+      - Past Workshops: "Workshops/2020/past_workshops.md"
+      - Workshop Organizer Guide: "Workshops/workshop_guide.md"
   - Events:
     - Past Events:
       - Recess Week Challenge 2020:

@@ -1,0 +1,1858 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="canonical" href="https://3dc.opensutd.org/Recess_Week_Challenge_Stuff/cloud_based_lab/">
+      
+      <link rel="shortcut icon" href="../../imgs/code.svg">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.5">
+    
+    
+      
+        <title>Cloud-based Lab - Digital Design and Development Club (3DC)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.15aa0b43.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.75751829.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#009485">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="indigo">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#recess-week-challenge-cloud-based-lab-sheep-as-a-service-saas" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="https://3dc.opensutd.org/" title="Digital Design and Development Club (3DC)" class="md-header-nav__button md-logo" aria-label="Digital Design and Development Club (3DC)">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            Digital Design and Development Club (3DC)
+          </span>
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            
+              Cloud-based Lab
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Workshops/2021/intro_to_programming/" class="md-tabs__link">
+        Workshops
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../recess_week_challenge/" class="md-tabs__link md-tabs__link--active">
+        Events
+      </a>
+    </li>
+  
+
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../gtc/" class="md-tabs__link">
+        Google Tech Challenge 2021
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../core_team/" class="md-tabs__link">
+        About Us
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://3dc.opensutd.org/" title="Digital Design and Development Club (3DC)" class="md-nav__button md-logo" aria-label="Digital Design and Development Club (3DC)">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z"/></svg>
+
+    </a>
+    Digital Design and Development Club (3DC)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" data-md-state="indeterminate" type="checkbox" id="nav-2" checked>
+      
+      <label class="md-nav__link" for="nav-2">
+        Workshops
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Workshops" data-md-level="1">
+        <label class="md-nav__title" for="nav-2">
+          <span class="md-nav__icon md-icon"></span>
+          Workshops
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-1" data-md-state="indeterminate" type="checkbox" id="nav-2-1" checked>
+      
+      <label class="md-nav__link" for="nav-2-1">
+        Upcoming Workshops
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Upcoming Workshops" data-md-level="2">
+        <label class="md-nav__title" for="nav-2-1">
+          <span class="md-nav__icon md-icon"></span>
+          Upcoming Workshops
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Workshops/2021/intro_to_programming/" class="md-nav__link">
+        Intro to Programming
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Workshops/2021/blockchain_dev_workshop/" class="md-nav__link">
+        Blockchain Development
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Workshops/2020/past_workshops/" class="md-nav__link">
+        Past Workshops
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Workshops/workshop_guide/" class="md-nav__link">
+        Workshop Organizer Guide
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+      
+      <label class="md-nav__link" for="nav-3">
+        Events
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Events" data-md-level="1">
+        <label class="md-nav__title" for="nav-3">
+          <span class="md-nav__icon md-icon"></span>
+          Events
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1" checked>
+      
+      <label class="md-nav__link" for="nav-3-1">
+        Past Events
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Past Events" data-md-level="2">
+        <label class="md-nav__title" for="nav-3-1">
+          <span class="md-nav__icon md-icon"></span>
+          Past Events
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-1-1" type="checkbox" id="nav-3-1-1" checked>
+      
+      <label class="md-nav__link" for="nav-3-1-1">
+        Recess Week Challenge 2020
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Recess Week Challenge 2020" data-md-level="3">
+        <label class="md-nav__title" for="nav-3-1-1">
+          <span class="md-nav__icon md-icon"></span>
+          Recess Week Challenge 2020
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recess_week_challenge/" class="md-nav__link">
+        Challenge Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Cloud-based Lab
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Cloud-based Lab
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-story-so-far" class="md-nav__link">
+    The story so far...
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-your-local-environment" class="md-nav__link">
+    Setting up your Local Environment
+  </a>
+  
+    <nav class="md-nav" aria-label="Setting up your Local Environment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installing-python" class="md-nav__link">
+    Installing Python
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-flask" class="md-nav__link">
+    Installing Flask
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-our-first-flask-web-application" class="md-nav__link">
+    Creating our first Flask Web Application!
+  </a>
+  
+    <nav class="md-nav" aria-label="Creating our first Flask Web Application!">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-the-workspace" class="md-nav__link">
+    Setting up the workspace
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-the-webpage" class="md-nav__link">
+    Creating the webpage
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-the-local-flask-server" class="md-nav__link">
+    Setting up the Local Flask Server
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#running-the-local-flask-server" class="md-nav__link">
+    Running the Local Flask Server
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deploying-a-flask-web-application-to-the-cloud-aws" class="md-nav__link">
+    Deploying a Flask Web Application to the Cloud (AWS)
+  </a>
+  
+    <nav class="md-nav" aria-label="Deploying a Flask Web Application to the Cloud (AWS)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#0-prepare-our-application" class="md-nav__link">
+    0. Prepare our application
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1-create-an-aws-account" class="md-nav__link">
+    1. Create an AWS Account
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-go-to-the-aws-elastic-beanstalk-console" class="md-nav__link">
+    2. Go to the AWS Elastic Beanstalk Console
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fill-in-application-details" class="md-nav__link">
+    3. Fill in Application Details
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-wait-for-application-deployment" class="md-nav__link">
+    4. Wait for Application Deployment
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-youre-done" class="md-nav__link">
+    5. You're Done!
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide/" class="md-nav__link">
+        HackerRank Guide
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../teaser_hints/" class="md-nav__link">
+        Teaser Hints
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../teaser_sols/" class="md-nav__link">
+        Teaser Solution
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../q1_hints/" class="md-nav__link">
+        Q1 Hints
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../q1_sol/" class="md-nav__link">
+        Q1 Solution
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../q2_sol/" class="md-nav__link">
+        Q2 Solution
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../q3_hints/" class="md-nav__link">
+        Q3 Hints
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../q3_sol/" class="md-nav__link">
+        Q3 Solution
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../q4_sol/" class="md-nav__link">
+        Q4 Solution
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../q5_hints/" class="md-nav__link">
+        Q5 Hints
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" data-md-state="indeterminate" type="checkbox" id="nav-4" checked>
+      
+      <label class="md-nav__link" for="nav-4">
+        Google Tech Challenge 2021
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Google Tech Challenge 2021" data-md-level="1">
+        <label class="md-nav__title" for="nav-4">
+          <span class="md-nav__icon md-icon"></span>
+          Google Tech Challenge 2021
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gtc/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-2" data-md-state="indeterminate" type="checkbox" id="nav-4-2" checked>
+      
+      <label class="md-nav__link" for="nav-4-2">
+        Web: Cookerino Website
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Web: Cookerino Website" data-md-level="2">
+        <label class="md-nav__title" for="nav-4-2">
+          <span class="md-nav__icon md-icon"></span>
+          Web: Cookerino Website
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gtc/web/day1/" class="md-nav__link">
+        Day 1: Back-end (Django) Development
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gtc/web/day2/" class="md-nav__link">
+        Day 2: Front-end (React) Development
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-3" data-md-state="indeterminate" type="checkbox" id="nav-4-3" checked>
+      
+      <label class="md-nav__link" for="nav-4-3">
+        Android
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Android" data-md-level="2">
+        <label class="md-nav__title" for="nav-4-3">
+          <span class="md-nav__icon md-icon"></span>
+          Android
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gtc/android/android/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gtc/android/day0a/" class="md-nav__link">
+        Day 0 - Environment Setup
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gtc/android/day0b/" class="md-nav__link">
+        Day 0 - Java Tutorial
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gtc/android/day1_androidstudio/" class="md-nav__link">
+        Day 1.1 - Introduction to Android Studio
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gtc/android/day1_gui/" class="md-nav__link">
+        Day 1.2 - Introduction to GUI
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gtc/android/day1_java/" class="md-nav__link">
+        Day 1.3 - Java in Android
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gtc/android/day2-firebase-intro/" class="md-nav__link">
+        Day 2.1 - Firebase Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gtc/android/day2-firebase-sdk/" class="md-nav__link">
+        Day 2.2 - Adding Firebase to Your Project
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gtc/android/day2-firebase-auth/" class="md-nav__link">
+        Day 2.3 - Adding Firebase Auth
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gtc/android/day2-firebase-db/" class="md-nav__link">
+        Day 2.4 - Adding Firebase Realtime Database
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gtc/android/day2-firebase-storage/" class="md-nav__link">
+        Day 2.5 - Adding Firebase Storage
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gtc/android/day2-bonus/" class="md-nav__link">
+        Day 2.6 - (Bonus) Feeding your Friend's Pets
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gtc/android/day2-distribute/" class="md-nav__link">
+        Day 2.7 - Distributing your App
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gtc/android/wrapup/" class="md-nav__link">
+        Wrapup
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-4" data-md-state="indeterminate" type="checkbox" id="nav-4-4" checked>
+      
+      <label class="md-nav__link" for="nav-4-4">
+        Cloud
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Cloud" data-md-level="2">
+        <label class="md-nav__title" for="nav-4-4">
+          <span class="md-nav__icon md-icon"></span>
+          Cloud
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gtc/cloud/cloud/" class="md-nav__link">
+        Session 1
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-5" data-md-state="indeterminate" type="checkbox" id="nav-4-5" checked>
+      
+      <label class="md-nav__link" for="nav-4-5">
+        Telegram Bot
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Telegram Bot" data-md-level="2">
+        <label class="md-nav__title" for="nav-4-5">
+          <span class="md-nav__icon md-icon"></span>
+          Telegram Bot
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gtc/telebot/day1/" class="md-nav__link">
+        Day 1
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gtc/telebot/day2/" class="md-nav__link">
+        Day 2
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" data-md-state="indeterminate" type="checkbox" id="nav-5" checked>
+      
+      <label class="md-nav__link" for="nav-5">
+        About Us
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="About Us" data-md-level="1">
+        <label class="md-nav__title" for="nav-5">
+          <span class="md-nav__icon md-icon"></span>
+          About Us
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core_team/" class="md-nav__link">
+        Core Team
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact_us/" class="md-nav__link">
+        Contact Us
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-3" data-md-state="indeterminate" type="checkbox" id="nav-5-3" checked>
+      
+      <label class="md-nav__link" for="nav-5-3">
+        Join Us
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Join Us" data-md-level="2">
+        <label class="md-nav__title" for="nav-5-3">
+          <span class="md-nav__icon md-icon"></span>
+          Join Us
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3dc_membership/" class="md-nav__link">
+        Join 3DC as a Member
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../join_3dc_core/" class="md-nav__link">
+        Join 3DC Core Team
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-4" data-md-state="indeterminate" type="checkbox" id="nav-5-4" checked>
+      
+      <label class="md-nav__link" for="nav-5-4">
+        Resources
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Resources" data-md-level="2">
+        <label class="md-nav__title" for="nav-5-4">
+          <span class="md-nav__icon md-icon"></span>
+          Resources
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../demo/" class="md-nav__link">
+        Demo Page
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-story-so-far" class="md-nav__link">
+    The story so far...
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-your-local-environment" class="md-nav__link">
+    Setting up your Local Environment
+  </a>
+  
+    <nav class="md-nav" aria-label="Setting up your Local Environment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installing-python" class="md-nav__link">
+    Installing Python
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-flask" class="md-nav__link">
+    Installing Flask
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-our-first-flask-web-application" class="md-nav__link">
+    Creating our first Flask Web Application!
+  </a>
+  
+    <nav class="md-nav" aria-label="Creating our first Flask Web Application!">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-the-workspace" class="md-nav__link">
+    Setting up the workspace
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-the-webpage" class="md-nav__link">
+    Creating the webpage
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-the-local-flask-server" class="md-nav__link">
+    Setting up the Local Flask Server
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#running-the-local-flask-server" class="md-nav__link">
+    Running the Local Flask Server
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deploying-a-flask-web-application-to-the-cloud-aws" class="md-nav__link">
+    Deploying a Flask Web Application to the Cloud (AWS)
+  </a>
+  
+    <nav class="md-nav" aria-label="Deploying a Flask Web Application to the Cloud (AWS)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#0-prepare-our-application" class="md-nav__link">
+    0. Prepare our application
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1-create-an-aws-account" class="md-nav__link">
+    1. Create an AWS Account
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-go-to-the-aws-elastic-beanstalk-console" class="md-nav__link">
+    2. Go to the AWS Elastic Beanstalk Console
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-fill-in-application-details" class="md-nav__link">
+    3. Fill in Application Details
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-wait-for-application-deployment" class="md-nav__link">
+    4. Wait for Application Deployment
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-youre-done" class="md-nav__link">
+    5. You're Done!
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="recess-week-challenge-cloud-based-lab-sheep-as-a-service-saas">Recess Week Challenge Cloud-Based Lab: Sheep-as-a-Service (SaaS)<a class="headerlink" href="#recess-week-challenge-cloud-based-lab-sheep-as-a-service-saas" title="Permanent link">&para;</a></h1>
+<h2 id="the-story-so-far">The story so far...<a class="headerlink" href="#the-story-so-far" title="Permanent link">&para;</a></h2>
+<p>If you have tried out the teaser challenge released on Friday, you would have helped our main character, Steve to set up his sheep farm! </p>
+<p><img alt="" src="../../imgs/recess_week_challenge/sheep_farm.png" /></p>
+<p>Thanks to all your help, Steve is now happily shearing wool from his sheep! Now, Steve wants to sell wool to other Minecrafters. He needs your help to set up a system that helps customers calculate the price of the wool they wish to buy!</p>
+<p><img alt="" src="../../imgs/recess_week_challenge/saas.png" /></p>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>Welcome to 3DC's cloud-based lab! This lab has the following aims:</p>
+<ol>
+<li>Create a web-app with a working backend API</li>
+<li>The web-app will serve a very simple webpage as well that makes use of the backend API</li>
+<li>Deploy the web-app onto the cloud.</li>
+</ol>
+<p>TODO: Explain API</p>
+<p>In this case, our backend API will return a response containing the total price of the wool that the requester requests for.</p>
+<p>For this lab tutorial, we will be using <a href="https://flask.palletsprojects.com/en/1.1.x/">Flask</a>(a Python backend framework). We will be deploying our app to (<a href="https://aws.amazon.com/">Amazon Web Services(AWS)</a>) Elastic Beanstalk.</p>
+<h2 id="setting-up-your-local-environment">Setting up your Local Environment<a class="headerlink" href="#setting-up-your-local-environment" title="Permanent link">&para;</a></h2>
+<h3 id="installing-python">Installing Python<a class="headerlink" href="#installing-python" title="Permanent link">&para;</a></h3>
+<p>Please refer to the <a href="https://www.python.org/">Python Website</a> for instructions to install Python3 if you don't already have Python3 installed.</p>
+<h3 id="installing-flask">Installing Flask<a class="headerlink" href="#installing-flask" title="Permanent link">&para;</a></h3>
+<p>Open a Terminal/Command Prompt on your computer. (Here's an example for Windows)</p>
+<p><img alt="" src="../imgs/recess_week_challenge/cmd.png" /></p>
+<p>Now, install Flask by typing the following into your command line. (Note: It might be <code>pip</code> or <code>pip3</code> on your computer depending on how you installed python)</p>
+<div class="highlight"><pre><span></span><code>pip install Flask
+</code></pre></div>
+<p>We now have Flask installed!</p>
+<p>(<a href="https://flask.palletsprojects.com/en/1.1.x/installation/#python-version">Credits :Original Installation Instructions from Flask Website</a>)</p>
+<h2 id="creating-our-first-flask-web-application">Creating our first Flask Web Application!<a class="headerlink" href="#creating-our-first-flask-web-application" title="Permanent link">&para;</a></h2>
+<p>For now, we will create a Flask Web Application that runs on our local machine first. We will deploy this application to the cloud later.</p>
+<h3 id="setting-up-the-workspace">Setting up the workspace<a class="headerlink" href="#setting-up-the-workspace" title="Permanent link">&para;</a></h3>
+<p>Let us start by creating a folder for our cloud lab. In this case I will name this folder <code>cloud_lab</code>.</p>
+<p>We will create a Python file which will act as the source code for our Flask application. I will name this file <code>sheep_shop.py</code>, since this will be steve's sheep shop (or wool shop)!</p>
+<p>We will also create a HTML file which will be our home webpage for Steve's Sheep Shop! Steve's customers will access this webpage to check the price of the wool they want to buy! I will be creating a new file called <code>index.html</code> and placing it under the <code>templates</code> folder inside our <code>cloud_lab</code> folder.</p>
+<p>If you followed the steps above correctly, your directory structure should look like the following:</p>
+<div class="highlight"><pre><span></span><code>cloud_lab
+|   sheep_shop.py
+|
+└───templates
+    |   index.html
+</code></pre></div>
+<h3 id="creating-the-webpage">Creating the webpage<a class="headerlink" href="#creating-the-webpage" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>Since this tutorial is meant to be simple, we will only be using HTML, no CSS or Javascript</p>
+</blockquote>
+<p>Open your empty <code>index.html</code> file using your favourite text editor (you can use Notepad). To make things simple, we have provided some very simple sample code with comments. Simply paste this code into your file and replace the fields the file tells you to replace.</p>
+<div class="highlight"><pre><span></span><code><span class="cp">&lt;!doctype html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+    <span class="c">&lt;!-- Fill in the title to appear as your tab title below --&gt;</span>
+    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>YOUR TITLE HERE<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+    <span class="c">&lt;!-- Fill in the main header title for your webpage below --&gt;</span>
+    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>YOUR HEADER TITLE HERE<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+
+    <span class="c">&lt;!-- Fill in the subtitle for your webpage below --&gt;</span>
+    <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>YOUR SUBTITLE HERE<span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+
+    <span class="c">&lt;!-- The below code adds a form to our webpage --&gt;</span>
+    <span class="c">&lt;!-- This form calls our Python file when the button is pressed --&gt;</span>
+    <span class="p">&lt;</span><span class="nt">form</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;request_form&quot;</span> <span class="na">action</span><span class="o">=</span><span class="s">&quot;{{ url_for(&#39;request_price&#39;) }}&quot;</span> <span class="na">method</span><span class="o">=</span><span class="s">&quot;POST&quot;</span><span class="p">&gt;</span>
+
+      <span class="c">&lt;!-- The &lt;label&gt; elements add labels for each field --&gt;</span>
+      <span class="c">&lt;!-- The &lt;input&gt; elements add fields for our forms --&gt;</span>
+      <span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&quot;num_red_wool&quot;</span><span class="p">&gt;</span>Number of Red Wool:<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;number&quot;</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;num_red_wool&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;num_red_wool&quot;</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;</span> 
+
+      <span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&quot;num_green_wool&quot;</span><span class="p">&gt;</span>Number of Green Wool:<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;number&quot;</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;num_green_wool&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;num_green_wool&quot;</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+
+      <span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&quot;num_blue_wool&quot;</span><span class="p">&gt;</span>Number of Blue Wool:<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;number&quot;</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;num_blue_wool&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;num_blue_wool&quot;</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+
+      <span class="c">&lt;!-- The below represents the submit button for our form --&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;submit&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;Calculate Price&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">form</span><span class="p">&gt;</span> 
+  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</code></pre></div>
+<p>Note that the <code>&lt;input&gt;</code> elements in the form have the <code>name</code> attribute assigned to them. This <code>name</code> attribute allows us to identify which field is which when we pass the form over to the Python code later on. In the <code>&lt;form&gt;</code> element, the <code>action</code> attribute causes the form to submit a <a href="https://www.w3schools.com/tags/ref_httpmethods.asp">HTTP request</a> to our Python Flask Application (which acts as the server).</p>
+<p>If you are interested to know, the <code>method</code> attribute specifies the kind of HTTP request that is sent to the server. A POST request is usually used to send data to a server.</p>
+<p>Make sure to save your file! You can open this HTML file in your web browser to see what it looks like!</p>
+<p><img alt="" src="../../imgs/recess_week_challenge/sheep_shop_html.png" /></p>
+<h3 id="setting-up-the-local-flask-server">Setting up the Local Flask Server<a class="headerlink" href="#setting-up-the-local-flask-server" title="Permanent link">&para;</a></h3>
+<p>What we have just done is created a simple static webpage! However, the webpage by itself right now doesnt really do anything. It can't actually calculate anything!</p>
+<p>Usually, you could simply add some javascript to add some interactive functionality to your webpage. However, we Steve realises he has a problem. The cost of each red wool, green wool and blue wool is changing all the time! Steve does not want to implement the logic for calculating the cost for the wool on his webpage. Instead, he wants to leave the calculation logic to a server, where he could also do many other things!</p>
+<blockquote>
+<p>Now of course, Steve's goal to calculate price is a very simple task, however, a server becomes much more important when you have databases and complicated logic involved. Static web pages by themselves are not made to handle complex server logic or concurrency.</p>
+</blockquote>
+<p>Open <code>sheep_shop.py</code> in your favourite text editor(e.g. Notepad, VScode) or IDE (e.g. Spyder, PyCharm). Paste the following template code with comments into your Python file and replace the part to calculate the total wool price.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Flask</span><span class="p">,</span> <span class="n">render_template</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">jsonify</span>
+
+<span class="n">red_wool_price</span> <span class="o">=</span> <span class="mi">100</span>    <span class="c1"># Sets the price of a red wool to 100. DO NOT MODIFY</span>
+<span class="n">green_wool_price</span> <span class="o">=</span> <span class="mi">10</span>   <span class="c1"># Sets the price of a green wool to 10. DO NOT MODIFY</span>
+<span class="n">blue_wool_price</span> <span class="o">=</span> <span class="mi">1</span>     <span class="c1"># Sets the price of a green wool to 1. DO NOT MODIFY</span>
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>   <span class="c1"># Creates a Flask application</span>
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">)</span>    
+<span class="k">def</span> <span class="nf">index</span><span class="p">():</span>
+    <span class="c1"># When the user navigates to &lt;your_site_url&gt;/, the index.html page renders</span>
+    <span class="k">return</span> <span class="n">render_template</span><span class="p">(</span><span class="s1">&#39;index.html&#39;</span><span class="p">)</span>
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s1">&#39;/request_price&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;POST&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">request_price</span><span class="p">():</span>
+    <span class="c1"># The HTML page sends a HTTP request to this endpoint</span>
+    <span class="c1"># containing the wool numbers that the customer keyed in</span>
+    <span class="c1"># Now we extract the actual wool numbers from the HTTP request.</span>
+    <span class="n">num_red_wool</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">form</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;num_red_wool&#39;</span><span class="p">))</span>
+    <span class="n">num_green_wool</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">form</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;num_green_wool&#39;</span><span class="p">))</span>
+    <span class="n">num_blue_wool</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">form</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;num_blue_wool&#39;</span><span class="p">))</span>
+
+    <span class="c1"># Replace the 0 with the logic to calulcate the total price of the wools</span>
+    <span class="c1"># Hint: Total price is given by the sum of the number of each type of wool</span>
+    <span class="c1"># multiplied by their individual price. The variables containig the price of </span>
+    <span class="c1"># each wool has already been provided at the start of this file</span>
+    <span class="n">price</span> <span class="o">=</span> <span class="mi">0</span>
+
+    <span class="c1"># Now we return a JSON object containing the price of the object</span>
+    <span class="c1"># as a reponse</span>
+    <span class="k">return</span> <span class="n">jsonify</span><span class="p">({</span> <span class="s1">&#39;price&#39;</span><span class="p">:</span> <span class="n">price</span> <span class="p">})</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
+</code></pre></div>
+<p>Basically, the Flask app shows the user the webpage when the user navigates to the root directory of the website.</p>
+<p>In the second part of the flask app, there is a HTTP endpoint (you can think of it like a function) that handles the submitted form data from our <code>index.html</code> webpage. If you recall from the HTML file, we had a line</p>
+<div class="highlight"><pre><span></span><code>    <span class="p">&lt;</span><span class="nt">form</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;request_form&quot;</span> <span class="na">action</span><span class="o">=</span><span class="s">&quot;{{ url_for(&#39;request_price&#39;) }}&quot;</span> <span class="na">method</span><span class="o">=</span><span class="s">&quot;POST&quot;</span><span class="p">&gt;</span>
+</code></pre></div>
+<p>This <code>action</code> attribute tells the form to send the form data to the the url of the function with the name <code>request_price</code> in our flask app. The <code>request_price</code> function then takes the form data containing the number of wools, calculates the total price and returns a JSON object containing this total price in its response.</p>
+<h3 id="running-the-local-flask-server">Running the Local Flask Server<a class="headerlink" href="#running-the-local-flask-server" title="Permanent link">&para;</a></h3>
+<p>To start up the server, open up a terminal, and <a href="https://www.howtogeek.com/659411/how-to-change-directories-in-command-prompt-on-windows-10/">navigate</a> to the <code>cloud_lab</code> directory. Simply start the server by typing in the terminal (warning: depending on your setup, the command may be <code>python3</code> instead of <code>python</code>)</p>
+<div class="highlight"><pre><span></span><code>python sheep_shop.py
+</code></pre></div>
+<p>You should see output on the terminal similar to the following:</p>
+<div class="highlight"><pre><span></span><code> * Serving Flask app &quot;sheep_shop&quot; (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+</code></pre></div>
+<p>Great, our flask app is now running! In your web browser, navigate to the url stated in the terminal output (usually <code>http://127.0.0.1:5000/</code>), and you should see your main webpage again, but this time served from your local Flask server!</p>
+<p>We can test out our webpage and price calculation. For example, fill in the number of the red, green and blue wools to be 1, 2 and 3 respectively, then click on the calculate button. You should now be redirected to another page that looks like this:</p>
+<p>On Firefox:</p>
+<p><img alt="Firefox" src="../../imgs/recess_week_challenge/sheep_price_firefox.png" /></p>
+<p>On Chrome/Edge:</p>
+<p><img alt="Chrome" src="../../imgs/recess_week_challenge/sheep_price_chrome.png" /></p>
+<p>Congratulations, you have created your first working Flask application with a webpage and HTTP endpoint! Let us see how we can deploy this application to the cloud so the anyone on the internet case access it! (and so we can award you marks for your lab)</p>
+<h2 id="deploying-a-flask-web-application-to-the-cloud-aws">Deploying a Flask Web Application to the Cloud (AWS)<a class="headerlink" href="#deploying-a-flask-web-application-to-the-cloud-aws" title="Permanent link">&para;</a></h2>
+<p>We will be deploying our Flask server to AWS Elastic Beanstalk, a managed cloud service that will help to host the Flask application for us. Note that the options we choose in this lab should not incur any monetary costs, as we are using the 'free tier' of services.</p>
+<h3 id="0-prepare-our-application">0. Prepare our application<a class="headerlink" href="#0-prepare-our-application" title="Permanent link">&para;</a></h3>
+<p>To upload to Elastic Beanstalk, we need to do some additional configurations and setup.</p>
+<p>First, Elastic Beanstalk requires our Python Flask file to be called <code>application.py</code>, so go ahead rename that file. The name of the Flask app variable in our Python file also needs to be called <code>application</code>, so go ahead and replace ALL occurances of <code>app</code> with <code>application</code>.</p>
+<blockquote>
+<p>IMPORTANT: Be careful! You need to change the <code>app.route</code> to <code>application.route</code> and the <code>app.run()</code> to <code>application.run()</code></p>
+</blockquote>
+<p>Second, Elastic Beanstalk requires a <code>requirements.txt</code> in the same folder as the <code>application.py</code>, so that it knows what dependencies it needs to install. Normally, we would use <code>pip freeze</code> to help us find out the requirements of our virtual environment. However, since we did not create virtual environment, this would just return all the dependencies installed on our computer, instead of just the ones required for the Flask Application. So, create a new file called <code>requirements.txt</code> and paste the contents inside:</p>
+<div class="highlight"><pre><span></span><code>click==7.1.2
+Flask==1.1.2
+itsdangerous==1.1.0
+Jinja2==2.11.2
+MarkupSafe==1.1.1
+Werkzeug==1.0.1
+</code></pre></div>
+<p>We will need to zip our application to upload to AWS later. There are other ways to upload our application, e.g. using S3 or Github, but we will just zip the application for now. (I will zip the contents <code>cloud_lab</code> folder to <code>cloud_lab.zip</code>)</p>
+<blockquote>
+<p>IMPORTANT: Make sure there is no extra base folder in your zip file. The moment you open the zip file, the Python file and requirements file and templates folder should be in the root directory.</p>
+</blockquote>
+<h3 id="1-create-an-aws-account">1. Create an AWS Account<a class="headerlink" href="#1-create-an-aws-account" title="Permanent link">&para;</a></h3>
+<p>If you do not have an AWS Account already, sign up for a free AWS account here:
+https://aws.amazon.com/. If you have an account, just log in.</p>
+<h3 id="2-go-to-the-aws-elastic-beanstalk-console">2. Go to the AWS Elastic Beanstalk Console<a class="headerlink" href="#2-go-to-the-aws-elastic-beanstalk-console" title="Permanent link">&para;</a></h3>
+<p>In the AWS Management Console, click on <code>Services</code> in the top left corner, and click on <code>Elastic Beanstalk</code>.</p>
+<p><img alt="Elastic Beanstalk" src="../../imgs/recess_week_challenge/elastic_beanstalk_nav.png" /></p>
+<p>Then, click on <code>Create Application</code></p>
+<p><img alt="" src="../../imgs/recess_week_challenge/elastic_beanstalk_create.png" /></p>
+<h3 id="3-fill-in-application-details">3. Fill in Application Details<a class="headerlink" href="#3-fill-in-application-details" title="Permanent link">&para;</a></h3>
+<p>You should now see a form to fill in your application details.</p>
+<p>Fill in the following:</p>
+<ol>
+<li>For <code>Application Name</code>, just fill in whatever you want (e.g. <code>Sheep Shop</code>)</li>
+<li>Leave <code>Application Tags</code> empty</li>
+<li>For <code>Platform</code>, choose <code>Python</code>, then <code>Python3.7 running on 64bit Amazon Linux 2</code> for the Platform branch, then <code>3.1.2</code> for the platform version (or which is given)</li>
+<li>For <code>Application Code</code>, choose to upload your code.</li>
+<li>For <code>Source Code Origin</code>, choose <code>Choose file</code>, then choose to upload the zip file we created for our application earlier (e.g. <code>cloud_lab.zip</code>).</li>
+<li>For <code>Application code tags</code>, leave it alone, then click on <code>Create Application</code></li>
+</ol>
+<h3 id="4-wait-for-application-deployment">4. Wait for Application Deployment<a class="headerlink" href="#4-wait-for-application-deployment" title="Permanent link">&para;</a></h3>
+<p>You should now see something like this.</p>
+<p><img alt="" src="../../imgs/recess_week_challenge/elastic_beanstalk_deploying.png" /></p>
+<p>AWS Elastic Beanstalk is now deploying your application, give it a while for it to be ready. Meanwhile, go make yourself some coffee or something!</p>
+<p>After some time, the deployment should be complete, and you should see the following:</p>
+<p><img alt="" src="../../imgs/recess_week_challenge/sheep_shop_deploy_done.jpg" /></p>
+<p>To verify the webpage is indeed working, navigate to the link (as circled in the image). You should see your working webpage. Try calculating the price of wools, and it should be working!</p>
+<h3 id="5-youre-done">5. You're Done!<a class="headerlink" href="#5-youre-done" title="Permanent link">&para;</a></h3>
+<p>That wasn't so difficult was it? Deploying your first web application onto the cloud.</p>
+<p>Once you're ready, <a href="https://3dc-recess-week-web.azurewebsites.net/">submit your cloud based lab here</a>.</p>
+<p>We strongly encourage you to explore other options for creating a web-app (e.g. Express/Spring/ASP.NET/Django), as well as the other cloud providers (E.g. Microsoft Azure, Google Cloud Platform) and the different services they have to offer!</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../recess_week_challenge/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Challenge Introduction
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../guide/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                HackerRank Guide
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Digital Design and Development Club (3DC) &copy; 2019 - 2021. All rights reserved.
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="https://github.com/3DCdsc" target="_blank" rel="noopener" title="github.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://www.twitch.tv/3dcdsc" target="_blank" rel="noopener" title="www.twitch.tv" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M391.17 103.47h-38.63v109.7h38.63zM285 103h-38.63v109.75H285zM120.83 0L24.31 91.42v329.16h115.83V512l96.53-91.42h77.25L487.69 256V0zm328.24 237.75l-77.22 73.12h-77.24l-67.6 64v-64h-86.87V36.58h308.93z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://www.youtube.com/channel/UCF56lQD1HWv-0uOQSXrTmLw" target="_blank" rel="noopener" title="www.youtube.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://www.instagram.com/sutd3dc/" target="_blank" rel="noopener" title="www.instagram.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://t.me/joinchat/C_Nni1C77ZlOVTdjU4yf4Q" target="_blank" rel="noopener" title="t.me" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.93c04032.min.js"></script>
+      <script src="../../assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ['navigation.tabs', 'navigation.expand'],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.8c7e0a7e.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="../../javascripts/config.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

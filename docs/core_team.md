@@ -48,9 +48,8 @@ Just a guy who likes to dabble in every field of computer science. Favourites ar
 
 <img src="../imgs/team/shyam.jpg" alt="shyam" class="profile-photo"/>
 <b>Shyam Sridhar</b>
-<br/>Class of 2022
 <br/>
-OpenNodes Lead<br/>
+OpenNodes Campus Lead, Class of 2022<br/>
 <a href="https://github.com/SHSR2001"><img src="../imgs/logos/github.svg" class="logo"/></a>
 <a href="https://www.linkedin.com/in/shyam-sridhar/"><img src="../imgs/logos/linkedin.svg" class="logo"/></a>
 <br/>

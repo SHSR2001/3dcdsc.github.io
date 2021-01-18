@@ -14,7 +14,7 @@ I'm a sophomore in ISTD. I initially picked up programming years ago as a hobby.
 <br/>
 
 <img src="../imgs/team/mark.jpg" alt="mark" class="profile-photo"/>
-<b>Mark Huang He</b>
+<b>Huang He (Mark)</b>
 <br/>
 Vice-President, Class of 2022<br/>
 <a href="https://github.com/MarkHershey"><img src="../imgs/logos/github.svg" class="logo"/></a>

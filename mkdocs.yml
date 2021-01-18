@@ -124,8 +124,9 @@ nav:
       - Day 2: "gtc/telebot/day2.md"
   - About Us:
       - Core Team: "core_team.md"
+      - Contact Us: "contact_us.md"
       - Join Us:
-        - Join 3DC Membership: "3dc_membership.md"
+        - Join 3DC as a Member: "3dc_membership.md"
         - Join 3DC Core Team: "join_3dc_core.md"
       - Resources:
         - Demo Page: "demo.md"
